@@ -1,9 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+Fun little app to be able to let people take photos of their snaps and then post them to a website
 
 * Ruby version
 
