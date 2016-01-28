@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root 'welcome#index'
+  root 'snaps#index'
+
+  resources :snaps
 
 
 end

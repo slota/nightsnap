@@ -63,8 +63,16 @@
         <br>
         <p>
           <%= form_for @snap, :html => { :multipart => true } do |f| %>
-            <%= f.file_field :photo %>
+            <%= f.file_field :image %>
             <%= f.submit "Submit" %>
+          <% end %>
+        </p>
+        <p>
+          <% @snaps.each do |snap| %>
+            <br>
+            <div class="row">
+              <%= image_tag(snap.image.url) %>
+            </div>
           <% end %>
         </p>
       </div>
