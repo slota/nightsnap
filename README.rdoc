@@ -2,6 +2,8 @@
 
 Fun little app to be able to let people take photos of their snaps and then post them to a website
 
+Notes: We're using waffle to project manage our tool, it's pretty dope but if you'd like to contribute to tasks, the url is https://waffle.io/slotaj/nightsnap, please let me know if you'd like to add an issue you think is worth working on!
+
 * Ruby version
 
 * System dependencies
